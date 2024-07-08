@@ -27,14 +27,20 @@ Run Docker to set up local dev environment.
 - Ensure the API is protected against common security threats such as SQL injection and Cross-Site Scripting (XSS).
 
 ### Frontend (Next.js)
+- Reference: https://nextjs.org/docs
+
+#### Authentication
+- Use authjs to implement secure jwt token authentication with Laravel backend.
+- Reference: https://authjs.dev
 
 #### User Interface Design:
 - Build a responsive front-end interface using NextUI and Tailwind CSS.
+- NexUI, and Tailwind CSS are already setup.
 - Create reusable components for UI elements.
 
 #### State Management and Routing:
 - Manage application state effectively.
-- Implement client-side routing with Next.js.
+- Implement client-side routing with Next.js. (Use the app router)
 
 #### CRUD Functionalities:
 - Develop interfaces for adding, updating, and deleting products.
@@ -47,7 +53,3 @@ Run Docker to set up local dev environment.
 
 #### Testing and Quality Assurance:
 - Write unit and integration tests for both backend and frontend components.
-
-#### Performance Tuning:
-- Optimize application performance through code and query optimizations.
-
